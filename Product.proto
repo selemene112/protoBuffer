@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package protokol_buffer;
+option go_package = "/ProtokolBuffer";
+
+message users {
+    string username = 1;
+    string password = 2;
+    string photo = 3;
+    int64 code_users = 4; 
+
+}
