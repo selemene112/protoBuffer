@@ -10,3 +10,11 @@ message users {
     int64 code_users = 4; 
 
 }
+
+
+message product {
+    string name = 1;
+    string description = 2;
+    string photo = 3;
+    int64 code_product = 4;
+}
